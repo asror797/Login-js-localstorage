@@ -8,7 +8,7 @@ let user = storage.getItem("user");
 const userInfo = JSON.parse(user)
 
 // chekkin user log in
-if(!(storage.user==undefined) {
+if(!(storage.user==undefined)) {
   location.href = './pages/logined.html';
 }
 
@@ -22,5 +22,5 @@ loginBtn.addEventListener("click",()=>{
   storage.setItem("user",Value)
   location.href = './pages/logined.html';
   })
-}
+
 
