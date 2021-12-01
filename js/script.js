@@ -21,5 +21,6 @@ loginBtn.addEventListener("click",()=>{
 
   storage.setItem("user",Value)
   location.href = './pages/logined.html';
-})
+  })
+}
 
