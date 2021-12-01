@@ -8,7 +8,7 @@ let user = storage.getItem("user");
 const userInfo = JSON.parse(user)
 
 // chekkin user log in
-if(!storage.user==null) {
+if(!(storage.user==undefined) {
   location.href = './pages/logined.html';
 }
 
